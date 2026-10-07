@@ -1,0 +1,12 @@
+# Dados persistidos pelos containers (gerados em runtime)
+.docker/dbdata/
+data/
+
+# Plugin do Debezium MySQL (baixado do Maven Central, ver README)
+connect-plugins/
+
+# IDE / SO
+.vscode/
+.idea/
+.DS_Store
+.env
